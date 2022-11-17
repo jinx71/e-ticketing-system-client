@@ -2,13 +2,13 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <header class="masthead">
-            <div class="container position-relative">
-                <div class="row justify-content-center">
-                    <div class="col-xl-8">
-                        <div class="text-center text-white">
+        <header className="masthead">
+            <div className="container position-relative">
+                <div className="row justify-content-center">
+                    <div className="col-xl-8">
+                        <div className="text-center text-white">
                             {/* <!-- Page heading--> */}
-                            <h1 class="mb-5">Provide Great Supports To Your Clients With Our Ticketing System</h1>
+                            <h1 className="mb-5">Provide Great Supports To Your Clients With Our Ticketing System</h1>
                             {/* <!-- Signup form-->
                             <!-- * * * * * * * * * * * * * * *-->
                             <!-- * * SB Forms Contact Form * *-->
@@ -17,23 +17,23 @@ const Banner = () => {
                             <!-- To make this form functional, sign up at-->
                             <!-- https://startbootstrap.com/solution/contact-forms-->
                             <!-- to get an API token!--> */}
-                            <form class="form-subscribe" id="contactForm">
+                            <form className="form-subscribe" id="contactForm">
                                 {/* <!-- Email address input--> */}
-                                <div class="row">
-                                    <div class="col">
-                                        <input class="form-control form-control-lg" id="emailAddress" type="email" placeholder="Email Address" />
-                                        <div class="invalid-feedback text-white" >Email Address is required.</div>
-                                        <div class="invalid-feedback text-white" >Email Address Email is not valid.</div>
+                                <div className="row">
+                                    <div className="col">
+                                        <input className="form-control form-control-lg" id="emailAddress" type="email" placeholder="Email Address" />
+                                        <div className="invalid-feedback text-white" >Email Address is required.</div>
+                                        <div className="invalid-feedback text-white" >Email Address Email is not valid.</div>
                                     </div>
-                                    <div class="col-auto"><button class="btn btn-primary btn-lg" id="submitButton" type="submit">Submit</button></div>
+                                    <div className="col-auto"><button className="btn btn-primary btn-lg" id="submitButton" type="submit">Submit</button></div>
                                 </div>
                                 {/* <!-- Submit success message--> */}
                                 {/* <!---->
                                 <!-- This is what your users will see when the form-->
                                 <!-- has successfully submitted--> */}
-                                <div class="d-none" id="submitSuccessMessage">
-                                    <div class="text-center mb-3">
-                                        <div class="fw-bolder">Form submission successful!</div>
+                                <div className="d-none" id="submitSuccessMessage">
+                                    <div className="text-center mb-3">
+                                        <div className="fw-bolder">Form submission successful!</div>
                                         <p>To activate this form, sign up at</p>
 
                                     </div>
@@ -42,7 +42,7 @@ const Banner = () => {
                                 <!---->
                                 <!-- This is what your users will see when there is-->
                                 <!-- an error submitting the form--> */}
-                                <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                                <div className="d-none" id="submitErrorMessage"><div className="text-center text-danger mb-3">Error sending message!</div></div>
                             </form>
                         </div>
                     </div>

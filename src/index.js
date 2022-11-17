@@ -8,11 +8,15 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import "bootstrap-icons/font/bootstrap-icons.css";
 import './css/styles.css'
 import './index.css';
+import UserContext from './Context/UserContext'
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <UserContext>
+
     <App />
-  </React.StrictMode>
+
+  </UserContext>
 );
 
 // If you want to start measuring performance in your app, pass a function
